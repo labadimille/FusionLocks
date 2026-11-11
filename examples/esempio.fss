@@ -1,0 +1,15 @@
+# Il primo programma FusionLocks
+let nome = "mondo"
+print "Ciao, " + nome + "!"
+
+let conteggio = 3
+while conteggio > 0 {
+    print conteggio
+    set conteggio = conteggio - 1
+}
+
+if conteggio == 0 {
+    print "Fatto!"
+} else {
+    print "Qualcosa e andato storto."
+}

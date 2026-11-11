@@ -1,0 +1,35 @@
+{
+  "name": "fusionlocks-language",
+  "displayName": "FusionLocks Language",
+  "description": "Syntax highlighting for FusionLocks .fss files",
+  "version": "0.1.0",
+  "publisher": "fusionlocks",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "fusionlocks",
+        "aliases": [
+          "FusionLocks",
+          "fusionlocks"
+        ],
+        "extensions": [
+          ".fss"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "fusionlocks",
+        "scopeName": "source.fusionlocks",
+        "path": "./syntaxes/fusionlocks.tmLanguage.json"
+      }
+    ]
+  }
+}

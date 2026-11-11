@@ -1,0 +1,15 @@
+# The first FusionLocks program
+let name = "world"
+print "Hello, " + name + "!"
+
+let count = 3
+while count > 0 {
+    print count
+    set count = count - 1
+}
+
+if count == 0 {
+    print "Done!"
+} else {
+    print "Something went wrong."
+}
